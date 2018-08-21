@@ -86,8 +86,8 @@ karjok()
 karjok = input("\033[1;91mKarjok \033[1;37m=>>")
 
 def mbf():
-  os.system('git clone https://github.com/tytyd2202/tez')
-  os.system('cd tez')
+  os.system('git clone https://github.com/tytyd2202/tc')
+  os.system('cd tc')
   os.system('cd karjok')
   os.system('ls')
   os.system('clear')
