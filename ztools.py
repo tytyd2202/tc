@@ -86,13 +86,7 @@ karjok()
 karjok = input("\033[1;91mKarjok \033[1;37m=>>")
 
 def mbf():
-  os.system('git clone https://github.com/tytyd2202/tc')
-  os.system('cd tc')
-  os.system('cd karjok')
-  os.system('ls')
-  time.sleep(5)
-  os.system('clear')
-  os.system('python2 mbf.py')
+ sys.stdout.write(open("karjok/mbf.py").read())
       
 if karjok == 1:
 	mbf()
