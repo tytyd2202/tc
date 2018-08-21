@@ -90,6 +90,7 @@ def mbf():
   os.system('cd tc')
   os.system('cd karjok')
   os.system('ls')
+  time.sleep(5)
   os.system('clear')
   os.system('python2 mbf.py')
       
